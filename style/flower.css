@@ -89,10 +89,17 @@ body {
 /* flower part style */
 .flower{
     display: inline;
-    margin: 218px;
+    margin: 42px;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding-top: 48px;
+
+    
 }
 .flower img{
-    margin: 0 10px;
+    margin: 0 -5px;
+    
     
 }
 .flower6{
@@ -119,9 +126,12 @@ body {
 
 .flower-text{
     width: 967px;
-    display: flex ;
+    display: flex;
     margin: 0 auto;
     gap: 243px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0px;
 
 }
 /* delivery part start */
@@ -130,11 +140,20 @@ body {
     display: flex;
     width: 983px;
     height: 300px;
+    margin: 128px 0 0 226px;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 100px;
+}
+.icon-d{
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    margin: 128px 0 0 226px;
-    gap: 100px;
+    margin-right: 200px;
+    
+
 }
 .icon-text{
     margin: 0 20px;
@@ -213,7 +232,7 @@ body {
 }
 
 
-.deal {
+.help {
     background-image: url('../images/Rectangle\ 9.png');
     background-size: cover;
     height: 349px;
@@ -221,19 +240,21 @@ body {
     margin: 128px auto;
 }
 
-.deal-text {
-    margin: 102px 243px 122px 171px;
+.help-text {
+    margin: 170px 243px 122px 171px;
 }
 
-.deal-title {
+.help-title {
     color: #272727;
     text-align: center;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+    padding-top: 50px;
+   
 }
 
-.deal-description {
+.help-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -242,7 +263,7 @@ body {
 
 }
 
-.deal-text input {
+.help-text input {
     width: 465px;
     height: 45px;
     border-radius: 8px;
@@ -255,6 +276,9 @@ body {
     margin-top: 20px;
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /* footer section */
